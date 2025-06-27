@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 2em;
+  background-color: #ffc017;
+}
+nav {
+  justify-content: flex-end;
+  display: flex;
+  flex-grow: 1;
+}
+h1 {
+  font-size: 5em;
+}
+
+/* main */
+
+.titolo {
+  background-color: #ffc017;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.prima {
+  border-bottom: 1px solid black;
+}
+
+address img {
+  width: 1.2em;
+  border-radius: 50px;
+}
+
+.prima article {
+  padding: 10px;
+}
+
+/* sezione due */
+.seconda {
+  float: left;
+}
+.seconda img {
+  width: 5em;
+}
+.seconda article {
+  padding: 10px;
+}
