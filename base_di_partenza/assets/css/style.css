@@ -28,6 +28,8 @@ h1 {
 }
 .prima {
   border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 address img {
@@ -37,11 +39,13 @@ address img {
 
 .prima article {
   padding: 10px;
+  margin-right: 129px;
 }
 
 /* sezione due */
 .seconda {
   float: left;
+  width: 100vh;
 }
 .seconda img {
   width: 5em;
